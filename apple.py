@@ -1,0 +1,104 @@
+import turtle as t
+t.goto(100, 40)
+t.bgcolor('black')
+t.color('white')
+t.speed(3)
+t.begin_fill()
+t.fillcolor('white')
+t.left(135)
+for i in range(30):
+    t.forward(1)
+    t.left(1)
+t.right(5)
+for i in range(35):
+    t.forward(1)
+    t.left(1)
+t.left(5)
+t.forward(30)
+
+for i in range(15):
+    t.forward(0.7)
+    t.right(3)
+
+t.forward(25)
+t.left(5)
+for i in range(50):
+    t.forward(1)
+    t.left(1)
+t.right(3)
+for i in range(50):
+    t.forward(1)
+    t.left(1)
+t.right(5)
+for i in range(45):
+    t.forward(2)
+    t.left(1)
+t.right(5)
+for i in range(40):
+    t.forward(2)
+    t.left(1)
+t.left(5)
+for i in range(20):
+    t.forward(1)
+    t.left(2)
+t.left(5)
+t.forward(15)
+for i in range(9):
+    t.forward(2)
+    t.right(3)
+t.forward(1)
+for i in range(15):
+    t.forward(1)
+    t.right(1)
+t.right(4)
+t.forward(4.5)
+t.right(1)
+for i in range(27):
+    t.forward(1)
+    t.left(2)
+t.left(8)
+t.forward(5)
+for i in range(25):
+    t.forward(2)
+    t.left(1)
+t.right(3)
+t.forward(10)
+t.left(83)
+for i in range(75):
+    t.forward(1.3)
+    t.right(1)
+t.right(4)
+for i in range(24):
+    t.forward(1.3)
+    t.right(1)
+t.forward(9.66)
+t.end_fill()
+t.penup()
+
+
+
+
+import turtle as t
+t.goto(10, 55)
+t.bgcolor('black')
+t.pensize(2)
+t.color('white')
+t.begin_fill()
+t.fillcolor('white')
+t.right(30)
+for i in range(15):
+    t.forward(2)
+    t.left(3)
+for i in range(15):
+    t.forward(2)
+    t.left(3)
+t.left(90)
+for i in range(15):
+    t.forward(2)
+    t.left(3)
+for i in range(13):
+    t.forward(2)
+    t.left(2.5)
+
+t.end_fill()
+t.done()
